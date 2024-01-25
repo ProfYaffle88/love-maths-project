@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function() {
  */
 function runGame(gameType) {
 
+    document.getElementById('answer-box').value = "";
+
     //Creates two random numbers between 1 & 25 (inclusive)
     let num1 = Math.floor(Math.random() * 25) + 1;
     let num2 = Math.floor(Math.random() * 25) + 1;
